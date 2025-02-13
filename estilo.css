@@ -1,0 +1,170 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    margin: 0;
+    border: 0;
+    font-size: 1rem;
+}
+
+header {
+
+    background-color: #3b5998;
+    padding: 10px 0;
+
+}
+
+header img.logo {
+
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    float: left;
+   
+
+}
+
+header h1 {
+    padding: 0 auto;
+    color: wheat;
+    text-align: center;
+  
+    float: top;
+
+
+}
+header a {
+    padding: 10px;
+    float: right ;
+    color: white;
+    text-align: center;
+    
+
+
+}
+
+header a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0;   
+    text-align: center;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+   
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+
+
+}
+
+nav ul li a:hover {
+    color: rgb(72, 255, 0);
+    transition: 1s;
+
+}
+
+.parrafo {
+    text-align: justify;
+    padding: 20px;
+}
+
+section {
+
+    margin: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+
+}
+
+.catalogo-item {
+
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
+}
+
+
+
+.catalogo-item img {
+    transition: box-shadow 0.5s ease-out;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+
+
+.catalogo-item img:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+.wpp,
+.inst {
+    transition: box-shadow 1s ease;
+    width: 50px;
+    height: auto;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.wpp:hover,
+.inst:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+p {
+
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
